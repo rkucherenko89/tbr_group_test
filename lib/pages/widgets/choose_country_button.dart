@@ -124,7 +124,7 @@ class _ChooseCountryButtonState extends State<ChooseCountryButton> {
                                       height: 20,
                                       width: 38,
                                       child: SvgPicture.network(
-                                          'https://flagcdn.com/ua.svg', // ! 'https://flagcdn.com/ua.svg' change to flag
+                                          snapshot.data[index].flag, // ! 'https://flagcdn.com/ua.svg' change to flag
                                           fit: BoxFit.contain),
                                     ),
                                     SizedBox(width: 12),
